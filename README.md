@@ -6,7 +6,7 @@ This assignment is to be done in the same homework group of two as in the previo
 ## Name:  
 Name:
 ---
-## Assignment Details
+## Accepting Assignment 4
 * As before, have only ONE person on the team accept the assignment. That person 
 will add the other team member to the generated assignment repository. In the new
 GitHub repository:
@@ -20,6 +20,74 @@ GitHub repository:
   7. Remember to push your completed assignment to your GitHub assignment repo by the deadline.
   8. Also, submit your Assignment 4 repository's GitHub URL to Canvas Assignment 4 by clicking on the
      Canvas link for the assignment.
+---
+## Description
+The purpose of this assignment is to give you practice in applying the Agile XP methodology to your coding. 
+You will apply ping pong pair programming and TDD (see PowerPoint lecture slides) in completing the Façade 
+Design Pattern and writing tests.
+
+The React template with class and function interfaces for your assignment 5 have been provided. Create Vitest 
+tests to ensure your code will work correctly when we grade it. Do NOT change the starter code interfaces unless
+specified or your code will fail every test and receive a score of 0! 
+
+### Part 1: Cloning and setting up your local repository
+1.	Use Webstorm to clone locally the GitHub Assignment 4 repo
+2.	Set up Vitest. See Agile XP – Pair Programming and Testing PowerPoint lecture slides
+
+### Part 2: Façade Pattern – Object Oriented
+The Typescript template with interfaces for the façade pattern has been provided. You will implement a façade 
+pattern to control all household appliances. Use ping pong pair programming and TDD, test-driven development, 
+to write the following code and tests.
+
+1.	Do NOT edit the Appliance, SoundSystem classes.
+2.	Complete the code for the TV class and create Vitest tests
+3.	Complete the code for the SoundSystem class and create Vitest tests
+4.	In HomeFacade, 
+   a.	do NOT change the provided interfaces for the methods.
+   b.	Implement the constructor
+   c.	Implement the Typescript getters and setters for TV and SoundSystem
+   d.	Implement the turn on and turn off methods.
+   e.	Delegate to all the methods in the TV and SoundSystem classes. Use the same interfaces for methods in HomeFacade as the methods in the delegated classes. For example, HomeFacade should have an interface
+muteTV(): string
+that delegates to the void mute() method in the TV class.
+5.	Write the following example code that will display on the React web page (App.tsx)
+   a.	creates the HomeFacade object
+   b.	turn on the TV first
+   c.	the last two commands are to turn off the TV and then turn off the sound system
+   d.	uses all the HomeFacade methods at least once.
+   e.	Create Vitest tests for TV and SoundSystem
+      i.	An initial test is provided in TV.test.ts
+
+Part 3: Deploying the React Application
+1.	Build your React application by running  
+    npm run build
+2.	This will create a dist folder that will contain your static files – index.html,
+    and in the assets subfolder – your javascript code and CSS styles.
+3.	Copy the index.html and the assets subfolder to your public directory
+4.	Create the Express server in the top folder of your application
+   a.	Run the following commands in a terminal or Windows command window
+      i.	npm install -D express
+     ii.	npm install -D @types/express
+   b.	Create a server.ts file in the top folder of your project. Include the following code  
+```
+import express from "express";  
+const app = express()  
+
+// the following line processes static files in the public folder
+// it is public/index.html that is returned at localhost:3000
+app.use(express.static('public'))
+
+// the following runs the server
+app.listen(3000, () => {
+    console.log(`Server is listening on port 3000`);
+})
+```
+c.	Compile the Typescript server.ts file
+d.	Create a node.js Typescript Run Configuration named production server. See settings on the next page.
+ 
+
+5.	You should now be able to view your application by running either the Vite development server or the production server
+
 ---
 ## AI Policy
 To ensure that you are able to create a client-server application after this course is over,
