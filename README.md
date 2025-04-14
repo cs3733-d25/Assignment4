@@ -87,7 +87,9 @@ app.listen(3000, () => {
 
 7. Compile the Typescript server.ts file
 8. Create a node.js Typescript Run Configuration named production server.
-9.	You should now be able to view your application by running either the Vite development
+   ![image](https://github.com/user-attachments/assets/6708b8d9-afa3-4003-983e-fe3c2e5dd872)
+
+10.	You should now be able to view your application by running either the Vite development
     server or the production server
 ---
 ## AI Policy
