@@ -1,5 +1,5 @@
 # Assignment 4 - Agile XP and Facade Design Pattern
-*DUE: Sunday, April 20 at 11:59pm. There is no penalty for submitting until Monday, 21 at noon.
+*DUE: Sunday, April 20 at 11:59pm. There is no penalty for submitting until Monday, April 21 at noon.
 This assignment is to be done in the same homework group of two as in the previous assignment.
 
 **Enter both of your names below. If we cannot figure out who did the assignment, we cannot grade it!**
@@ -18,7 +18,7 @@ GitHub repository:
   6. Make sure to edit the README.md file in the repository and add both of your names to
      the document!
   7. Remember to push your completed assignment to your GitHub assignment repo by the deadline.
-  8. Also, submit your Assignment 4 repository's URL to Canvas Assignment 4 by clicking on the
+  8. Also, submit your Assignment 4 repository's GitHub URL to Canvas Assignment 4 by clicking on the
      Canvas link for the assignment.
 ---
 ## AI Policy
