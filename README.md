@@ -65,15 +65,15 @@ that delegates to the void mute() method in the TV class.
     and in the assets subfolder – your javascript code and CSS styles.
 3.	Copy the index.html and the assets subfolder to your public directory
 4.	Create the Express server in the top folder of your application
-    1. Run the following commands in a terminal or Windows command window
+5. Run the following commands in a terminal or Windows command window
 ```
 npm install -D express
 npm install -D @types/express
-```  
-    2. Create a server.ts file in the top folder of your project. Include the following code  
 ```
+6. Create a server.ts file in the top folder of your project. Include the following code  
+```typescript
 import express from "express";  
-const app = express()  
+const app = express()
 
 // the following line processes static files in the public folder
 // it is public/index.html that is returned at localhost:3000
@@ -84,10 +84,10 @@ app.listen(3000, () => {
     console.log(`Server is listening on port 3000`);
 })
 ```
-c.	Compile the Typescript server.ts file
-d.	Create a node.js Typescript Run Configuration named production server.
 
-5.	You should now be able to view your application by running either the Vite development
+7. Compile the Typescript server.ts file
+8. Create a node.js Typescript Run Configuration named production server.
+9.	You should now be able to view your application by running either the Vite development
     server or the production server
 ---
 ## AI Policy
