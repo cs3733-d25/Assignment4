@@ -60,14 +60,16 @@ that delegates to the void mute() method in the TV class.
 
 Part 3: Deploying the React Application
 1.	Build your React application by running  
-    npm run build
+    `npm run build`
 2.	This will create a dist folder that will contain your static files – index.html,
     and in the assets subfolder – your javascript code and CSS styles.
 3.	Copy the index.html and the assets subfolder to your public directory
 4.	Create the Express server in the top folder of your application
    a.	Run the following commands in a terminal or Windows command window
-      i.	npm install -D express
-     ii.	npm install -D @types/express
+```
+npm install -D express
+npm install -D @types/express
+```
    b.	Create a server.ts file in the top folder of your project. Include the following code  
 ```
 import express from "express";  
@@ -83,10 +85,11 @@ app.listen(3000, () => {
 })
 ```
 c.	Compile the Typescript server.ts file
-d.	Create a node.js Typescript Run Configuration named production server. See settings on the next page.
+d.	Create a node.js Typescript Run Configuration named production server.
  
 
-5.	You should now be able to view your application by running either the Vite development server or the production server
+5.	You should now be able to view your application by running either the Vite development
+    server or the production server
 
 ---
 ## AI Policy
