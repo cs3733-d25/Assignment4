@@ -3,8 +3,8 @@
 This assignment is to be done in the same homework group of two as in the previous assignment.
 
 **Enter both of your names below. If we cannot figure out who did the assignment, we cannot grade it!**
-## Name:  
-Name:
+### Name:  
+### Name:
 ---
 ## Accepting Assignment 4
 * As before, have only ONE person on the team accept the assignment. That person 
@@ -65,12 +65,12 @@ that delegates to the void mute() method in the TV class.
     and in the assets subfolder – your javascript code and CSS styles.
 3.	Copy the index.html and the assets subfolder to your public directory
 4.	Create the Express server in the top folder of your application
-   a.	Run the following commands in a terminal or Windows command window
+    1. Run the following commands in a terminal or Windows command window
 ```
 npm install -D express
 npm install -D @types/express
-```
-   b.	Create a server.ts file in the top folder of your project. Include the following code  
+```  
+    2. Create a server.ts file in the top folder of your project. Include the following code  
 ```
 import express from "express";  
 const app = express()  
