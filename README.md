@@ -58,7 +58,7 @@ that delegates to the void mute() method in the TV class.
    e.	Create Vitest tests for TV and SoundSystem
       i.	An initial test is provided in TV.test.ts
 
-Part 3: Deploying the React Application
+### Part 3: Deploying the React Application
 1.	Build your React application by running  
     `npm run build`
 2.	This will create a dist folder that will contain your static files – index.html,
@@ -86,11 +86,9 @@ app.listen(3000, () => {
 ```
 c.	Compile the Typescript server.ts file
 d.	Create a node.js Typescript Run Configuration named production server.
- 
 
 5.	You should now be able to view your application by running either the Vite development
     server or the production server
-
 ---
 ## AI Policy
 To ensure that you are able to create a client-server application after this course is over,
