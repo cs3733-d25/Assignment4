@@ -1,5 +1,5 @@
 # Assignment 4 - Agile XP and Facade Design Pattern
-*DUE: Monday 21, 11:59pm. There is a 10 point penalty for submitting the assignment by Tuesday, April 22 at noon.
+*DUE: Sunday, April 20 at 11:59pm. There is no penalty for submitting until Monday, 21 at noon.
 This assignment is to be done in the same homework group of two as in the previous assignment.
 
 **Enter both of your names below. If we cannot figure out who did the assignment, we cannot grade it!**
